@@ -1,0 +1,8 @@
+lst = [int(x) for x in input("Enter numbers: ").split()]
+maxi = lst[0]
+
+for num in lst:
+    if num > maxi:
+        maxi = num
+
+print("Maximum element =", maxi)
